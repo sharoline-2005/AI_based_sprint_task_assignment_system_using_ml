@@ -1,5 +1,4 @@
-# AI_based_sprint_task_assignment_system_using_ml
-AI-based sprint task assignment system that uses Machine Learning and the Hungarian Algorithm to recommend employee-task assignments based on skills, experience, workload, velocity, and task requirements.
+
 # AI-Based Sprint Task Assignment System
 
 An AI-based system that recommends optimal sprint task assignments by analyzing employee skills, experience, workload, velocity, and task requirements.
