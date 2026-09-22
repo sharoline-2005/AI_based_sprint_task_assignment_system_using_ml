@@ -1,0 +1,12 @@
+fastapi>=0.115
+uvicorn[standard]>=0.30
+pydantic>=2.9
+scikit-learn>=1.5
+scipy>=1.14
+pandas>=2.2
+numpy>=2.1
+joblib>=1.4
+faker>=29.0
+requests>=2.32
+sqlalchemy>=2.0
+psycopg2-binary>=2.9

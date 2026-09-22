@@ -1,0 +1,17 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "backend",
+      "runtimeExecutable": "cmd.exe",
+      "runtimeArgs": ["/c", "cd", "/d", "C:\\New folder\\AI_based_sprint_task_assignment_system_using_ml\\backend", "&&", "venv\\Scripts\\uvicorn.exe", "app.main:app", "--reload", "--port", "8000"],
+      "port": 8000
+    },
+    {
+      "name": "frontend",
+      "runtimeExecutable": "cmd.exe",
+      "runtimeArgs": ["/c", "cd", "/d", "C:\\New folder\\AI_based_sprint_task_assignment_system_using_ml\\frontend", "&&", "C:\\New folder\\AI_based_sprint_task_assignment_system_using_ml\\backend\\venv\\Scripts\\python.exe", "-m", "streamlit", "run", "dashboard.py", "--server.port", "8501", "--server.headless", "true"],
+      "port": 8501
+    }
+  ]
+}
